@@ -1,0 +1,13 @@
+dict = {'amar':35,'akbar':20,'anthony':64}
+
+print(dict)
+print(dict['amar'])
+print(type(dict))
+print(len(dict))
+
+for key ,value in dict.items():
+    print("%s %s" %(key , value))
+for key in dict.keys():
+    print(key)
+for value in dict.values():
+    print(value)
